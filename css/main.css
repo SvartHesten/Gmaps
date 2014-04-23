@@ -1,0 +1,50 @@
+html, body
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+#map-canvas
+{
+    height: 70%;
+    width: 66%;
+    margin: 5px;
+    padding: 0px;
+    border: 2px solid grey;
+    float: left;
+}
+
+#search-area
+{
+    height: 70%;
+    width: 30%;
+    margin: 5px;
+    padding: 0;
+    border: 2px solid grey;
+    float: right;
+}
+
+#places-list, #radius, button
+{
+    width: 50%;
+    margin: 5px;
+}
+
+span {
+    margin: 5px;
+}
+
+#search-area ul {
+    list-style-type: none;
+}
+
+#results {
+    position: relative;
+    float: left;
+    height: auto;
+    width: 99%;
+    border: 2px solid grey;
+    margin: 5px;
+
+}
